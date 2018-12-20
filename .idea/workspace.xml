@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d87e753-434d-4f70-bc97-7324fdbbf86a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigle_link_list/01_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/01_sigle_link_list.py" afterDir="false" />
-    </list>
+    <list default="true" id="4d87e753-434d-4f70-bc97-7324fdbbf86a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,38 +19,47 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="md" value="33" />
-          <entry key="py" value="4618" />
+          <entry key="py" value="5081" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="33" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="4618" />
+          <entry key="Python" value="5081" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/link_list/03_sigle_cycle_link_list.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue_stack/02_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+            <state relative-caret-position="176">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue_stack/03_dequeue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,13 +90,16 @@
         <option value="$PROJECT_DIR$/test/02_list.py" />
         <option value="$PROJECT_DIR$/link_list/02_double_link_list.py" />
         <option value="$PROJECT_DIR$/link_list/03_sigle_cycle_link_list.py" />
+        <option value="$PROJECT_DIR$/queue_stack/01_stack.py" />
+        <option value="$PROJECT_DIR$/queue_stack/02_dequeue.py" />
+        <option value="$PROJECT_DIR$/queue_stack/03_dequeue.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="62" />
-    <option name="width" value="1338" />
+    <option name="x" value="553" />
+    <option name="y" value="68" />
+    <option name="width" value="1260" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,7 +119,7 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="link_list" type="462c0819:PsiDirectoryNode" />
+              <item name="queue_stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,21 +267,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="62" width="1338" height="877" extended-state="0" />
+    <frame x="553" y="68" width="1260" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872124" weight="0.24373576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.24293785" />
       <window_info id="Structure" order="1" sideWeight="0.50127876" side_tool="true" weight="0.2741078" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37795275" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37795275" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939634" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35170603" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35170603" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,8 +339,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/link_list/03_sigle_cycle_link_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        <state relative-caret-position="292">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue_stack/01_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <marker date="1545300805066" expanded="true" signature="768:769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue_stack/02_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue_stack/03_dequeue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
