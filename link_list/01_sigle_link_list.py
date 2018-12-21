@@ -1,6 +1,5 @@
 # coding:utf-8
 
-
 class Node(object):
     """节点"""
     def __init__(self, elem):
@@ -109,8 +108,6 @@ if __name__ == "__main__":
     ll.append(1)
     print(ll.is_empty())
     print(ll.length())
-
-
     ll.append(2)
     ll.add(8)
     ll.append(3)
