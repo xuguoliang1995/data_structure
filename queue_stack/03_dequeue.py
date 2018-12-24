@@ -27,7 +27,18 @@ class Deque(object):
     def size(self):
         """返回队列的大小"""
         return len(self.__list)
-
+# 判断是不是一个回文数
+def isPalindrome(checking_string):
+    dequeue = Deque()
+    for ch in checking_string:
+        dequeue.add_front(ch)
+    while dequeue.size() > 1:
+        head_char = dequeue.pop_front()
+        end_char = dequeue.pop_rear()
+        if head_char != end_char:
+            return False
+    # 列标为空或者只剩一个元素时，为回文序列，返回true
+    return True
 
 if __name__ == "__main__":
     s = Deque()
@@ -36,4 +47,10 @@ if __name__ == "__main__":
     s.add_rear(4)
     print(s.is_empty())
     print(s.pop_rear())
+    word_list = ['random', 'carrac', 'doooood', 'slefles']
+    for word in word_list:
+        print("%s ---- %s" % (isPalindrome(word), word))
+        print("-----------------")
+
+
 
