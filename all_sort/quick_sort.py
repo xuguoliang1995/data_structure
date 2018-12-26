@@ -37,11 +37,9 @@ def find_k_nums(alist, k):
     return alist[:k]
 
 
-
 if __name__ == "__main__":
     li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     print(li)
     quick_sort(li, 0, len(li) - 1)
     print(li)
     print(find_k_nums(li, 3))
-
