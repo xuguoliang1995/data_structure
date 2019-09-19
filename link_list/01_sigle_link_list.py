@@ -98,6 +98,16 @@ class SingleLinkList(object):
                 cur = cur.next
         return False
 
+    def revese(node):
+        p = node
+        cur = node.next
+        p.next=None
+        while cur:
+            tmp = cur.next
+            cur.next = p
+            p = cur
+            cur = tmp
+            return p
 
 
 if __name__ == "__main__":

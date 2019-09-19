@@ -9,6 +9,8 @@
     它们当中至少有一个将被移到其最终位置上，因此对n个元素的表进行排序总共进行至多n-1次交换。在所有的完全依靠交换
     去移动元素的排序方法中，选择排序属于非常好的一种。
 """
+
+
 # alist = [17, 20,         93,54,77,31,44,55,226]
 #          0   1         2   3  4  5  6  7  8
 #
@@ -31,6 +33,7 @@ def select_sort(alist):
             if alist[min_index] > alist[i]:
                 min_index = i
         alist[j], alist[min_index] = alist[min_index], alist[j]
+
 
 def selection_sort1(nums):
     # 思路是将最小值逐一选择到前面
