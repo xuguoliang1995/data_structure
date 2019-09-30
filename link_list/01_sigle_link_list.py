@@ -2,6 +2,7 @@
 
 class Node(object):
     """节点"""
+
     def __init__(self, elem):
         self.elem = elem
         self.next = None
@@ -9,6 +10,7 @@ class Node(object):
 
 class SingleLinkList(object):
     """单链表"""
+
     def __init__(self, node=None):
         self.__head = node
 
@@ -58,12 +60,12 @@ class SingleLinkList(object):
         """
         if pos <= 0:
             self.add(item)
-        elif pos > (self.length()-1):
+        elif pos > (self.length() - 1):
             self.append(item)
         else:
             pre = self.__head
             count = 0
-            while count < (pos-1):
+            while count < (pos - 1):
                 count += 1
                 pre = pre.next
             # 当循环退出后，pre指向pos-1位置
@@ -101,7 +103,7 @@ class SingleLinkList(object):
     def revese(node):
         p = node
         cur = node.next
-        p.next=None
+        p.next = None
         while cur:
             tmp = cur.next
             cur.next = p
@@ -125,11 +127,11 @@ if __name__ == "__main__":
     ll.append(5)
     ll.append(6)
     # 8 1 2 3 4 5 6
-    ll.insert(-1, 9) # 9 8 1 23456
+    ll.insert(-1, 9)  # 9 8 1 23456
     ll.travel()
-    ll.insert(3, 100) # 9 8 1 100 2 3456
+    ll.insert(3, 100)  # 9 8 1 100 2 3456
     ll.travel()
-    ll.insert(10, 200) # 9 8 1 100 23456 200
+    ll.insert(10, 200)  # 9 8 1 100 23456 200
     ll.travel()
     ll.remove(100)
     ll.travel()
@@ -137,19 +139,3 @@ if __name__ == "__main__":
     ll.travel()
     ll.remove(200)
     ll.travel()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

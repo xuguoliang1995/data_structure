@@ -26,19 +26,6 @@ def insert_sort(alist):
                 break
 
 
-def insert_sort1(L):
-    # 假设第一个是排好序的，从第二个开始正向遍历到最后
-    for i in range(1, len(L)):
-        temp = L[i]  # 将当前位置的值赋给一个变量
-        # 如果i>0 和 i前面数的值大于i对应的值，则交换L[i]和L[i-1]位置
-        while i > 0 and L[i - 1] > temp:
-            L[i] = L[i - 1]
-            # 改变当前i的指针，因为要拿未排序的第一个值和前面所有的值对比
-            i = i - 1
-            L[i] = temp
-    return L
-
-
 if __name__ == "__main__":
     li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     print(li)

@@ -22,10 +22,13 @@ def heapify(arr, n, i):
 
 def heapSort(arr):
     n = len(arr)
-    for i in range(n, -1, -1):
+    start = int((n - 1) / 2)
+    for i in range(start, -1, -1):
         heapify(arr, n, i)
     for i in range(n - 1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i]
+        # 为什么传入的是0 因为交换位置之后除了顶点位置不是大顶锥之外，其余的都是大顶锥，
+        # 所以从父节点开始也就是索引0开始重新变为大顶锥。
         heapify(arr, i, 0)
 
 
@@ -35,4 +38,4 @@ if __name__ == "__main__":
     n = len(arr)
     print("排序后")
     for i in range(n):
-        print("%d" % arr[i],end="\t")
+        print("%d" % arr[i], end="\t")

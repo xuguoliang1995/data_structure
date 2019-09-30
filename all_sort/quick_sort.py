@@ -1,6 +1,5 @@
 # coding:utf-8
 
-
 def quick_sort(alist, first, last):
     """快速排序"""
     if first >= last:
